@@ -1,0 +1,30 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="textSize1">20sp</dimen>
+
+    <dimen name="base_toolbar_heght">48dp</dimen>
+    <dimen name="base_toolbar_leftImage_ml">10dp</dimen>
+    <dimen name="tv_toolbar_ml">5dp</dimen>
+    <dimen name="tv_toolbar_mr">5dp</dimen>
+    <!--注册登入-->
+    <dimen name="slpash_bottom">40dp</dimen>
+    <dimen name="slpash_bt_height">40dp</dimen>
+    <dimen name="slpash_bt_ml">20dp</dimen>
+    <dimen name="slpash_bt_mr">10dp</dimen>
+    <dimen name="login_head_width">80dp</dimen>
+    <dimen name="login_head_heght">80dp</dimen>
+    <dimen name="login_head_mt">20dp</dimen>
+    <dimen name="login_username_heght">40dp</dimen>
+    <dimen name="login_password_height">40dp</dimen>
+    <dimen name="login_head_mb">10dp</dimen>
+    <dimen name="login_bt">20dp</dimen>
+    <dimen name="login_bt_ml">15dp</dimen>
+    <dimen name="login_bt_mr">15dp</dimen>
+    <dimen name="login_bt_height">40dp</dimen>
+    <dimen name="login_rl_ml">15dp</dimen>
+    <dimen name="login_rl_mr">15dp</dimen>
+
+
+</resources>

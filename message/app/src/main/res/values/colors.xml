@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorwhile">#FFFFFF</color>
+    <color name="gary">#cccece</color>
+    <color name="gary_login">#f2f2f2</color>
+    <color name="textColor1">#257ebd</color>
+    <color name="bule">#21baf3</color>
+    <color name="bule_pressed">#37abd6</color>
+    <color name="login_background">#ecedf1</color>
+    <color name="login_hint">#c7c7c8</color>
+</resources>

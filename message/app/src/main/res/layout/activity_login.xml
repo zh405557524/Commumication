@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/activity_login"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/login_background"
+    tools:context="com.zhuming.commumication.ui.LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/iv_head"
+            android:layout_width="@dimen/login_head_width"
+            android:layout_height="@dimen/login_head_heght"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="@dimen/login_head_mb"
+            android:layout_marginTop="@dimen/login_head_mt"
+            android:src="@drawable/mkj"/>
+
+        <EditText
+            android:id="@+id/et_username"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/login_username_heght"
+            android:background="@color/colorwhile"
+            android:gravity="center"
+            android:hint="@string/hintusername"
+            android:textColorHint="@color/login_hint"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/gary"/>
+
+        <EditText
+            android:id="@+id/et_passwrod"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/login_password_height"
+            android:background="@color/colorwhile"
+            android:gravity="center"
+            android:hint="@string/hintpassword"
+            android:textColorHint="@color/login_hint"/>
+
+        <Button
+            android:id="@+id/bt_login"
+            style="@style/buttonbackgroundColor"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/login_bt_height"
+            android:layout_marginLeft="@dimen/login_bt_ml"
+            android:layout_marginRight="@dimen/login_bt_mr"
+            android:layout_marginTop="@dimen/login_bt"
+            android:text="@string/login"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="@dimen/login_rl_ml"
+        android:layout_marginRight="@dimen/login_rl_mr">
+
+        <TextView
+            android:id="@+id/notTologin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/notTodologin"
+            android:textColor="@color/bule"/>
+
+        <TextView
+            android:id="@+id/newRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="@string/newRegister"
+            android:textColor="@color/bule"/>
+    </RelativeLayout>
+
+
+</RelativeLayout>

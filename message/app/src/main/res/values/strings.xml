@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Commumication</string>
+    <!--登入 注册-->
+    <string name="login">登入</string>
+    <string name="register">注册</string>
+    <string name="notTodologin">无法登入</string>
+    <string name="newRegister">新用户注册</string>
+    <string name="username"/>
+    <string name="hintusername">QQ号/手机号/邮箱</string>
+    <string name="hintpassword">密码</string>
+</resources>

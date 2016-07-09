@@ -1,4 +1,4 @@
-package com.zhuming.commumication;
+package com.soul.commumication;
 
 import android.app.Activity;
 import android.app.ActivityManager;

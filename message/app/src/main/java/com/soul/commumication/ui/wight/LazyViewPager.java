@@ -1,4 +1,4 @@
-package com.zhuming.commumication.ui.wight;
+package com.soul.commumication.ui.wight;
 /**
  * @author soul
  * @作者：祝明

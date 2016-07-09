@@ -1,4 +1,4 @@
-package com.zhuming.commumication.utils.basicutils;
+package com.soul.commumication.utils.basicutils;
 
 import android.app.ProgressDialog;
 import android.content.Context;

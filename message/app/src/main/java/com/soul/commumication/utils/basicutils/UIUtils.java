@@ -1,11 +1,11 @@
-package com.zhuming.commumication.utils.basicutils;
+package com.soul.commumication.utils.basicutils;
 
 import android.app.Activity;
 import android.content.Context;
 import android.content.res.Resources;
 import android.os.Handler;
 
-import com.zhuming.commumication.BaseApplication;
+import com.soul.commumication.BaseApplication;
 
 import java.util.List;
 

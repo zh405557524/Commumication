@@ -1,4 +1,4 @@
-package com.zhuming.commumication.utils.basicutils;
+package com.soul.commumication.utils.basicutils;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -17,7 +17,7 @@ import java.util.Map;
  */
 public class StartActvityUtils {
     public static void StartActvity(final Activity activity, final HashMap<String, Integer> map) {
-        UIUtils.postTaskSafely(new Runnable() {
+       UIUtils.postTaskSafely(new Runnable() {
             @Override
             public void run() {
                 Intent intent = new Intent(UIUtils.getContext(), activity.getClass());

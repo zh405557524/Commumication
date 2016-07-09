@@ -1,4 +1,4 @@
-package com.zhuming.commumication.ui.wight;
+package com.soul.commumication.ui.wight;
 
 import android.content.Context;
 import android.util.AttributeSet;

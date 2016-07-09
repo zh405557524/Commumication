@@ -1,4 +1,4 @@
-package com.zhuming.commumication.utils.fatory;
+package com.soul.commumication.utils.fatory;
 
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.Executors;

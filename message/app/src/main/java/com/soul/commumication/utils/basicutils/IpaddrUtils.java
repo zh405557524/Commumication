@@ -1,4 +1,4 @@
-package com.zhuming.commumication.utils.basicutils;
+package com.soul.commumication.utils.basicutils;
 
 import android.content.Context;
 import android.net.wifi.WifiInfo;
@@ -23,7 +23,7 @@ public class IpaddrUtils {
 
         String ip = "";
         //获取wifi服务
-        WifiManager wifiManager = (WifiManager) UIUtils.getContext().getSystemService(Context.WIFI_SERVICE);
+        WifiManager wifiManager = (WifiManager)UIUtils.getContext().getSystemService(Context.WIFI_SERVICE);
         //判断wifi是否开启
         if (!wifiManager.isWifiEnabled()) {
             wifiManager.setWifiEnabled(true);

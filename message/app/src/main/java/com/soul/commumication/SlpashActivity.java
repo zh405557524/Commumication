@@ -1,4 +1,4 @@
-package com.zhuming.commumication;
+package com.soul.commumication;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -12,9 +12,9 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
-import com.zhuming.commumication.ui.LoginActivity;
-import com.zhuming.commumication.ui.RegisterActivity;
-import com.zhuming.commumication.utils.basicutils.UIUtils;
+import com.soul.commumication.ui.LoginActivity;
+import com.soul.commumication.ui.RegisterActivity;
+import com.soul.commumication.utils.basicutils.UIUtils;
 
 public class SlpashActivity extends AppCompatActivity implements View.OnClickListener {
 

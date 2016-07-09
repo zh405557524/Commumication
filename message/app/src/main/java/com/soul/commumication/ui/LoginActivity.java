@@ -1,9 +1,10 @@
-package com.zhuming.commumication.ui;
+package com.soul.commumication.ui;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
-import com.zhuming.commumication.R;
+import com.soul.commumication.R;
+
 
 public class LoginActivity extends AppCompatActivity {
 

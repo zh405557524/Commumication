@@ -12,8 +12,8 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
-import com.soul.commumication.ui.LoginActivity;
-import com.soul.commumication.ui.RegisterActivity;
+import com.soul.commumication.ui.activity.LoginActivity;
+import com.soul.commumication.ui.activity.RegisterActivity;
 import com.soul.commumication.utils.basicutils.UIUtils;
 
 public class SlpashActivity extends AppCompatActivity implements View.OnClickListener {
@@ -26,6 +26,7 @@ public class SlpashActivity extends AppCompatActivity implements View.OnClickLis
         LinearLayout linearlayout = (LinearLayout) findViewById(R.id.ll_loginAndRegister);
         Button btLogin = (Button) findViewById(R.id.bt_login);
         Button btRegister = (Button) findViewById(R.id.bt_register);
+
         btLogin.setOnClickListener(this);
         btRegister.setOnClickListener(this);
         setImageAnimation(isSlpash);

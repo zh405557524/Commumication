@@ -1,0 +1,83 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:background="@color/register_background"
+             tools:context="com.soul.commumication.ui.fragment.RegisterVerificationFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/base_toolbar"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/shortMessageIdentification"
+            android:textSize="16sp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/register_phone_line"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/register_phone_height"
+
+            android:orientation="horizontal">
+
+
+            <EditText
+                android:id="@+id/editText"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/colorwhile"
+                android:gravity="center_vertical"
+                android:hint="@string/inputCode"
+                android:inputType="phone"
+                android:maxLength="11"
+                android:paddingLeft="@dimen/et_register_phhone_ml"
+                android:textColor="@color/et_register_phonecloor"
+                android:textColorHint="@color/login_hint"
+                android:textSize="@dimen/textSize1"/>
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="@color/register_phone_line"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@color/colorwhile"
+                android:gravity="center"
+                android:paddingLeft="@dimen/register_phone_pl"
+                android:paddingRight="@dimen/register_phone_pr"
+                android:text="@string/sendPhoneCode"
+                android:textSize="16sp"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/register_phone_line"/>
+
+
+        <Button
+            android:id="@+id/button"
+            style="@style/buttonbackgroundColor"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/login_bt_height"
+            android:layout_marginLeft="@dimen/login_bt_ml"
+            android:layout_marginRight="@dimen/login_bt_mr"
+            android:layout_marginTop="@dimen/login_bt"
+            android:text="@string/nextStep"/>
+    </LinearLayout>
+
+</FrameLayout>

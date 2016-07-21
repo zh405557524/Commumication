@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorwhile"
-    tools:context="com.zhuming.commumication.SlpashActivity">
+    >
+
 
     <ImageView
         android:id="@+id/iv_slpash"
@@ -46,7 +47,6 @@
             android:textSize="@dimen/textSize1"/>
 
     </LinearLayout>
-
 
 </RelativeLayout>
 

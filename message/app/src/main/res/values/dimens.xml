@@ -25,6 +25,13 @@
     <dimen name="login_bt_height">40dp</dimen>
     <dimen name="login_rl_ml">15dp</dimen>
     <dimen name="login_rl_mr">15dp</dimen>
+    <dimen name="register_phone_pl">15dp</dimen>
+    <dimen name="register_phone_pr">10dp</dimen>
+    <dimen name="register_phone_mt">30dp</dimen>
+    <dimen name="register_phone_height">40dp</dimen>
+    <dimen name="et_register_phhone_ml">10dp</dimen>
+    <dimen name="button_size">18sp</dimen>
+    <dimen name="iv_phone_pl">10dp</dimen>
 
 
 </resources>

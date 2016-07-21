@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:xiff="http://schemas.android.com/tools">
     <string name="app_name">Commumication</string>
     <!--登入 注册-->
     <string name="login">登入</string>
@@ -8,4 +8,13 @@
     <string name="username"/>
     <string name="hintusername">QQ号/手机号/邮箱</string>
     <string name="hintpassword">密码</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="china">中国 +86</string>
+    <string name="inputPhone">请输入手机号</string>
+    <string name="nextStep">下一步</string>
+    <string name="shortMessageIdentification">我们已经给你的手机号码<xiff:g id="phone">%s</xiff:g>发送了一条验证短信</string>
+    <string name="inputCode">请输入短信验证码</string>
+    <string name="sendPhoneCode">点击发送</string>
 </resources>

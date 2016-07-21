@@ -16,6 +16,7 @@
     <style name="buttonbackgroundColor">
         <item name="android:background">@drawable/bt_slpash_register_selector</item>
         <item name="android:textColor">@color/colorwhile</item>
+        <item name="android:textSize">@dimen/button_size</item>
     </style>
 
 </resources>
